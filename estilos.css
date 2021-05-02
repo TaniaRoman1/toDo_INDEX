@@ -1,0 +1,94 @@
+*
+{
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: brown;
+    background-image: url(images/Chicago_City.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+} 
+
+
+.main{
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; 
+    background-color: rgb(75, 173, 238);
+}
+
+
+.tareaInput{
+    color: rgb(250, 248, 244);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px auto 0px auto;
+}
+
+.lista{
+    
+    width: 100%;
+    margin-top: 10px auto 10px auto;;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    border-bottom: 1px rgba(151, 17, 17, 0.719) solid; 
+}
+
+.work{
+    color: rgb(250, 248, 244);
+    width: 80%;
+}
+
+.done, .remove{
+    color:rgb(250, 248, 244);
+    width: 5%;
+}
+
+#inputTarea{
+  
+    width: 85%;
+    margin-right: 10px;
+    height: 35px;
+}
+
+.btnAdd{
+    color: rgb(250, 248, 244);
+    width: 10%;
+    margin-left: 10px;
+}
+
+
+#fecha{
+    color: rgb(238, 238, 232);            
+    font-size: 1.2em;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.workDone {
+    text-decoration: line-through;
+    color: rgb(250, 248, 244);
+}
